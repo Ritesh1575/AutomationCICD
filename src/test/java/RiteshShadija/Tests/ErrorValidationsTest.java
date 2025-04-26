@@ -26,7 +26,7 @@ public class ErrorValidationsTest extends BaseTest{
 		ProductCatalogue pc=L1.loginApplication("name19@gmail.com","Ritesh@56");
 		pc.addProductToCart(productName);
 		CartPage c1=pc.goToCartPage();
-		Boolean match= c1.VerifyProductDisplay("ZARA COAT 33");
+		Boolean match= c1.VerifyProductDisplay("ZARA COAT 3");
 		Assert.assertTrue(match);
 		
 	}
